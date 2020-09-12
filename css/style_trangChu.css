@@ -33,14 +33,13 @@ nav {
   background-color: hsl(144, 69%, 35%);
 }
 ul.menu {
-  list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
 }
 ul.menu > li {
-  min-width: 150px;
+  min-width: 110px;
   text-align: center;
 }
 ul.menu > li > a {
@@ -61,6 +60,23 @@ ul.menu > li > a:hover {
   border-bottom: 5px inset black;
 }
 #menu-phone {
+  display: none;
+}
+i.fas.fa-search {
+  padding: 10px;
+  font-size: 30px;
+}
+div.search-search {
+  background: white;
+  padding: 5px;
+  width: 270px;
+  margin-left: auto;
+  border: 2px solid green;
+}
+ ul {
+  list-style-type: none
+}
+#show-Search {
   display: none;
 }
             /*media*/
@@ -85,6 +101,9 @@ ul.menu > li > a:hover {
       }
       div.myMenu > a{
       color: white;
+      }
+      div.search-search {
+        width: 100%;
       }
     }
     @media screen and (max-width: 400px) {

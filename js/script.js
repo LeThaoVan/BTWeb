@@ -7,6 +7,14 @@ function myFunction() {
     else 
       e.style.display = "none";
   };
+
+  function showSearch() {
+    var sr = document.getElementById("show-Search")
+    if (sr.style.display === "none")
+      sr.style.display = "block";
+    else 
+      sr.style.display = "none";
+  };
   //QUANG CAO
   jQuery(document).ready(function() {
     //Quang cao so 1
@@ -56,6 +64,7 @@ function myFunction() {
         l.style.display = "none";
         g.style.display = "block";
     });
+   
 });
 
 // Kiem tra gmail 
