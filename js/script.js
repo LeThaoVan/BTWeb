@@ -58,7 +58,16 @@ function myFunction() {
     });
 });
 
-
+// Kiem tra gmail 
+function ktE(email) {
+  var TF = false;
+  var emailHopLe = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  if(emailHopLe.test(email)) {
+    TF = true;
+  }
+  return TF;
+}
+// Kiem tra nhap
 function kt(element) {
   if (element.value == "") {
     return false
@@ -71,13 +80,20 @@ function gui() {
   var ym = document.getElementById("yourMess");
   var s = "Gửi thành công!!!";
   var q = "Vui lòng nhập đầy đủ thông tin";
+  var email = ye.value;
   if (yn != undefined && ye != undefined && ym != undefined)
   {
       if (kt(yn) == true && kt(ye) == true && kt(ym) == true)
-          alert(s);
+      {
+          if (ktE(email) == true)
+              alert(s);
+          else
+              alert("Hãy nhập địa chỉ email hợp lệ!!!");
+      }
       else
           alert(q);
 
   }
       
 }
+
