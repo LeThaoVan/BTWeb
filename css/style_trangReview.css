@@ -27,7 +27,7 @@
     flex-wrap: wrap;
   }
   ul.menu > li {
-    min-width: 150px;
+    min-width: 110px;
     text-align: center;
   }
   ul.menu > li > a {
@@ -48,6 +48,23 @@
     border-bottom: 5px inset black;
   }
   #menu-phone {
+    display: none;
+  }
+  i.fas.fa-search {
+    padding: 10px;
+    font-size: 25px;
+  }
+  div.search-search {
+    background: white;
+    padding: 5px;
+    width: 270px;
+    margin-left: auto;
+    border: 2px solid green;
+  }
+   ul {
+    list-style-type: none
+  }
+  #show-Search {
     display: none;
   }
               /*media*/
@@ -77,6 +94,9 @@
       @media screen and (max-width: 400px) {
         ul.menu > li > a {
           font-size: 13px;
+        }
+        div.search-search {
+          width: 100%;
         }
       }
 
@@ -527,9 +547,9 @@ div.text > em {
       text-align: left;
     }
     div.poster > a > img {
-      width: 150px;
-      height: 90px;
-      float: none;
+      width: 190px;
+      height: 120px;
+      float: inherit;
     }
     h2 {
       font-size: 12px;
