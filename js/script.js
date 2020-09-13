@@ -1,3 +1,6 @@
+$.getScript("scripts.js", function(){
+  alert("Script loaded and executed.");
+});
  // MENU
   
 function myFunction() {
