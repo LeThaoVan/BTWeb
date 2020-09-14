@@ -67,22 +67,6 @@
     width: 14px;
   }
 
-
-  /*CSS background images*/
-  div.background-images {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -99999;
-    top: 0;
-    background-attachment: scroll;
-    }
-    div.background-images > img {
-        width: 100%;
-        height: auto !important;
-    }
-
-
 /* CSS Menu*/
     div.hovermenu {
         width: 90%;
@@ -171,6 +155,19 @@
           width: 100%;
         }
       }
+      /*CSS background images*/
+  div.background-images {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0; 
+    z-index: -99999;
+    background-attachment: scroll;
+    }
+    div.background-images > img {
+        width: 100%;
+        height: auto !important;
+    }
 
 /*CSS tieu de lon*/
 section.tieuDe-chinh {
@@ -206,7 +203,36 @@ h1.entry-title {
     padding: 2px;
     font-size: 17px;
 }
-
+ @media screen and (max-width: 620px) {
+  div.td-category-description > p > em {
+    font-size: 14px;
+  }   
+  .td-pb-not-span12 {
+    padding-top: 70px;
+  }  
+  .td-pb-not-span12 > h1 {
+    font-size: 20px;
+    line-height: 1;
+  }    
+ }
+ @media screen and (max-width: 460px) {
+  div.td-category-description > p > em {
+    font-size: 12px;
+  }   
+  .td-pb-not-span12 > h1 {
+    font-size: 15px;
+    line-height: 1;
+  }    
+ }
+ @media screen and (max-width: 220px) {
+ div.td-category-description > p > em {
+   font-size: 10px;
+ }   
+ .td-pb-not-span12 > h1 {
+   font-size: 13px;
+   line-height: 1;
+ }    
+}
 /* CSS muc page-BanDao*/
 .col70 {
     width: 70%;
