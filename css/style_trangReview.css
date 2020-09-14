@@ -42,6 +42,12 @@
   ul.menu > li > a.RP {
     border-bottom: 5px inset black;
   }
+  ul.menu > li > a.GTPH {
+    border-bottom: 5px inset black;
+  }
+  ul.menu > li > a.BXHang {
+    border-bottom: 5px inset black;
+  }
   ul.menu > li > a:hover {
     background-color: black;
     color: white;
@@ -547,8 +553,8 @@ div.text > em {
       text-align: left;
     }
     div.poster > a > img {
-      width: 190px;
-      height: 120px;
+      width: 100%;
+      height: auto;
       float: inherit;
     }
     h2 {
