@@ -3,10 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8"/>
-        <title>Giới thiệu phim hay</title>
-        <link href="css/style_trangReview.css" rel="stylesheet"/>
+        <title>Frozen 2 bội thu sau 3 ngày đầu công chiếu</title>
+        <link href="css/style_pageReview.css" rel="stylesheet"/>
         <meta name ="keywords" content="review phim, phim hay, giới thiệu phim hay"/>
         <link href="images/icons8-documentary-24.png" rel="shortcut icon" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script type="text/javascript" src="script.js" defer></script>
@@ -17,6 +21,7 @@
         <header>
             <img src="images/logo.PQ___" alt="Review" class="logo"/>
         </header>
+       
         <!--Menu-->
         <div class="hovermenu">
             <div class="myMenu" id="menu-phone" onclick="myFunction()">
@@ -26,9 +31,9 @@
                 <nav>
                     <ul class="menu">
                        <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/" class="TC">Trang chủ</a></li>
-                       <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page1">Review phim</a></li> 
-                       <li><a href="#" class="GTPH">Giới thiệu phim hay</a></li>
-                       <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-bang-xep-hang">Bảng xếp hạng</a></li> 
+                       <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page1" class="RP"></a>Bảng xếp hạng</a></li> 
+                       <li><a href="#">Giới thiệu phim hay</a></li>
+                       <li><a href="#">Bảng xếp hạng</a></li> 
                        <li><a href="#lienHe">Liên hệ</a></li>
                        <li onclick="showSearch()">
                              <i class="fas fa-search"></i> 
@@ -41,161 +46,197 @@
                 </div> 
             </div>
         </div>
-        <!--Noi dung-->
-        <section class="muc2">
-            <!--Cot 1-->
-            <div class="col70">
-                <div class="td-pb-span12">
-                    <div class="td-crumb-container">
-                        <div class="entry-crumbs">
-                            <span>
-                                <a title="" class="entry-crumb" href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/">Trang chủ</a>
-                            </span> 
-                            <i class="fas fa-angle-right" style="opacity: 0.4;"></i>
-                            <span>
-                                <a title="Xem tất cả bài review trong review phim" class="entry-crumb" href="#">Giới thiệu phim hay</a>
-                            </span>
-                        </div>
-                        <h1 class="entry-title td-page-title">GIỚI THIỆU PHIM HAY</h1>
-                        <div class="td-category-description">
-                            <p><em>Chuyên mục giới thiệu phim hay gồm các bài viết tổng hợp danh sách top phim hay các thể loại được giới phê bình và khán giả đánh giá cao. Ngoài ra, còn có những bài đánh giá và giải thích những bộ phim kinh điển.</em></p>
-                        </div>
+        <div class="background-images">
+            <img class="img-bg-no1" src="images/frozen_1.jpg" alt="frozen" style="opacity: 1;">
+            <img class="img-bg-no1" src="images/frozen_1.jpg" alt="frozen" style="opacity: 1;">
+            <img class="img-bg-no1" src="images/frozen_1.jpg" alt="frozen"style="opacity: 1;">
+            <img class="img-bg-no1" src="images/frozen_1.jpg" alt="frozen"style="opacity: 1;">
+        </div>
+        <section class="tieuDe-chinh">
+           
+            <div class="td-pb-span12">
+                <div class="td-crumb-container">
+                    <div class="entry-crumbs">
+                        <span>
+                            <a title="" class="entry-crumb" href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/">Trang chủ</a>
+                        </span> 
+                        <i class="fas fa-angle-right" style="opacity: 0.4;"></i>
+                        <span>
+                            <a title="Xem tất cả bài review trong review phim" class="entry-crumb" href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-bang-xep-hang">Bảng xếp hạng</a>
+                        </span>
                     </div>
                 </div>
-                <section>
-                        <div class="list">
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-review-phim-ban-dao"><img src="images/phim-mulholland.jpeg" alt="Mul">
-                                </div>
-                                <div class="text">
-                                    <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-review-phim-ban-dao">
-                                        <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-review-phim-ban-dao"><h2>Giải thích kết phim Mulholland Drive(2001) như thế nào cho đúng</h2></a>
-                                        <div>
-                                            <span class="td-post-date">
-                                                <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                            </span>
+            </div>
+            <div class="td-pb-not-span12">
+                <h1 class="entry-title td-page-title">Frozen 2 bội thu sau 3 ngày đầu công chiếu</h1>
+                <div class="td-category-description">
+                    <p><em>Nhờ tiếng tăm lừng lẫy từ phần đầu, Frozen 2 dễ dàng thu được doanh thu mở màn khủng tại phòng vé Bắc Mỹ vượt mặt cả phần 1.</em></p>
+                </div>
+                <div>
+                    <span class="td-post-date">
+                        <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="page-BanDao">
+            <!--Cot 1-->
+            <div class="col70">
+                <div class="noi-dung-review">
+                    <div class="noi-dung dk1">
+                        <p>Không để sự chờ đợi 4 năm mòn mỏi của khán giả trở nên đáng thất vọng, phim Bán Đảo Peninsula – phần hậu truyện của Train to Busan hoàn thành xuất sắc việc kể nên một Hàn Quốc hậu tận thế với xã hội đổ nát từ vật chất cho đến nhân cách. Cùng với đó là sự căng thẳng, đó là điều xảy ra xuyên suốt bộ phim khiến chúng ta không khỏi dự đoán liệu mọi thứ có thể ổn không. Để đến khi kết thúc chúng ta sẽ thở phào nhẹ nhõm khi bước ra khỏi rạp.</p>
+                        <ul class="style-type"><b>Xem thêm:</b>
+                            <li><a href="#" alt="7 yếu tố tạo nên thành công phim Train to Busan (2016)">7 yếu tố tạo nên thành công phim Train to Busan (2016)</a></li>
+                            <li><a href="#" alt="Cảm nhận phim Room (2015) dưới những góc nhìn khác">Cảm nhận phim Room (2015) dưới những góc nhìn khác</a></li>
+                        </ul>
+                    </div>
+                    <div class="noi-dung dk2">
+                        <img src="images/frozen_2.jpg" alt="frozen" />
+                        <p>Được công chiếu rộng rãi tại hơn 4.440 cụm rạp Bắc Mỹ kể từ lúc công chiếu, Frozen 2 mang về doanh thu 127 triệu USD trở thành phim có doanh thu mở màn nội địa cao thứ ba lịch sử khu vực khi chỉ đứng sau Incredibles 2 (187,2 triệu USD) và Finding Dory (135,1 triệu USD).</p>
+                    </div>
+                    <div id="quangCao" class="quangcao number1">
+                        <div class="b-button-QC">
+                            <button id="show-1"><i class="fas fa-sort-up"></i></i></button>
+                            <button id="hide-1"><i class="fas fa-times"></i></button>
+                        </div>
+                            <div class="backgroud-quangCao">
+                                <div id="hideIcon-1"><i class="fas fa-spinner fa-pulse" style="font-size:90px;"></i></div>
+                                <a id="b-quang-cao-1" href="https://corporate.studygroup.com/higher-education-pathways/united-kingdom/liverpool-john-moores-university"><img id="#img-quang-cao-1" src="images/quangcao/educational.jpg"/></a>
+                            </div>  
+                    </div>
+                    <div class="noi-dung dk3">
+                        <p>Tại thị trường quốc tế, phim cũng nhận được sự đón nhận nhiệt tình từ đông đảo khán giả. Doanh thu phòng vé từ 36 quốc gia và vùng lãnh thổ cuối tuần qua của bộ phim là 223,3 triệu USD. Như vậy, tính đến thời điểm hiện tại sau 3 ngày công chiếu, Frozen 2 mang về tổng doanh thu hơn 350 triệu USD. Mục tiêu tỷ USD không quá khó để nhà Chuột đạt được trong phần hậu truyện này.</p>
+                        <img src="images/frozen_3.jpg" alt="frozen"/>
+                    </div>
+                    <div class="noi-dung dk4">
+                        <p>Đạt được thành tích đáng nể này không chỉ nhờ phần trước mà còn bởi những đối thủ ra rạp cùng thời điểm đều khá đáng thất vọng, trong đó phải kể đến Terminator: Dark Fate và Charlie’s Angels (2019).</p>
+                        <p>Tuy không được giới phê bình đánh giá cao như phần 1 nhưng Frozen 2 vẫn nhận được nhiều bình luận tích cực. Trên Rotten Tomatoes, Frozen 2 có 76% bài đánh giá tích cực, điểm IMDb 7.3 và trên Cinema Score khán giả chấm điểm A-.</p>
+                        <img src="images/frozen_4.jpeg" alt="frozen" />
+                    </div>
+                    <div class="noi-dung dk6">
+                        <p>Vị trí thứ 2 thuộc thề quán quân tuần trước Ford v Ferrari. Phim thu ước tính 16 triệu USD tại thị trường Bắc Mỹ cuối tuần qua nâng tổng doanh thu nội địa sau 10 ngày công chiếu lên con số 58 triệu USD..</p>
+                        <p>A Beautiful Day in the Neighborhood – tác phẩm tiểu sử về huyền thoại màn ảnh nhỏ Fred Rogers của Tom Hanks đứng ở vị trí thứ 3 với doanh thu phim 13,1 triệu USD từ 3.235 rạp..</p>
+                         <p>Chiếu trước các rạp Việt 1 tuần là tác phẩm 21 Bridges (Tựa Việt: 12 Cây Cầu) mang về doanh thu 9,3 triệu tạm đứng ở vị trí thứ 4. So với chi phí sản xuất 33 triệu, tác phẩm hình sự trinh thám này phải rất nổ lực để có thể có lời.</p>
+                    </div>
+                    <div class="noi-dung dk5">
+                        <h2><b>Top 10 phim ăn khách tại Bắc Mỹ từ 22/11 tới 24/11:</b></h2>
+                        <p>(trong ngoặc là thứ hạng của tuần trước)</p>
+                        <p>1 (Mới). Frozen 2: 127 triệu USD</p>
+                        <p>2 (1). Ford v Ferrari: 16 triệu USD</p>
+                        <p>3 (Mới). A Beautiful Day in the Neighborhood: 13,5 triệu USD</p>
+                        <p>4 (Mới). 21 Bridges: 9,3 triệu USD</p>
+                        <p>5 (2). Midway: 4,7 triệu USD</p>
+                        <p>6 (4). Playing with Fire: 4,6 triêu USD</p>
+                        <p>7 (7). The Good Liar: 3,4 triệu USD</p>
+                        <p>8 (3). Charlie’s Angels: 3,2 triệu USD</p>
+                        <p>9 (5). Last Christmas: 3 triệu USD</p>
+                        <p>10 (8). Joker: 2,82 triệu USD</p>
+                        <ul class="style-type"><b>Tổng hợp:</b>
+                            <li><a href="#" alt="Review phim The Old Guard những chiến binh bất tử trên Netflix">Review phim The Old Guard những chiến binh bất tử trên Netflix</a></li>
+                            <li><a href="#" alt="Review phim Chị chị em em ở một góc nhìn khác">Review phim Chị chị em em ở một góc nhìn khác</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <section class="hide-show-slide">
+                    <div>
+                        <a href="#" style="text-decoration: none"><h1 class="subject cap2">Bài viết liên quan</h1></a>
+                    </div>
+                    <div id="demo" class="carousel slide" data-ride="carousel" style="padding: 5px 15px;"> 
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner" style="background: black; padding: 5px;" >
+                            <div class="carousel-item active">
+                                <div class="Big-Box">
+                                    <div class="smallBox">
+                                        <div class="product">              
+                                            <img src="images/lienQuang/Brody-SpikeLeeFilmReview-218x150.jpg" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam" />
+                                            <div class="info">
+                                                <a href="#" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam">Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam</a>
                                         </div>
-                                        <em>Review phim mulholland drive sắp xếp từng mảnh ghép, từng gợi ý tiếp theo trong câu chuyện để khẳng định cái giả thuyết vào cú twist của phim...</em>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/Phim-It-Happened.jpg" alt="happen"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim It Happened One Night (1934) cổ tích của một Hollywood hoàng kim</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
                                     </div>
-                                    <em>Trải qua bao nhiêu năm nhưng phim It Happened One Night vẫn không bị cuốn trôi vào dĩ vãng. ngược lại, những giá trị cao cả cả tác phẩm vẫn còn sống mãi</em>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-the-old-guard-netflix.jpg" alt="the-old"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Review phim The Old Guard những chiến binh bất tử trên Netflix</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                                    <div class="product">
+                                            <img src="images/lienQuang/sky-tour-movie-1-218x150.jpg" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm" />
+                                            <div class="info">
+                                                <a href="#" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm">Sky Tour Movie 2020 cú hích phòng vé giữa năm</a>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <img src="images/lienQuang/đường-hầm-sinh-tử-218x150.jpg" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)" />
+                                            <div class="info">
+                                                <a href="#" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)">Review phim Đường Hầm Sinh Tử (The Tunnel)</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <em>Review phim The Old Guard tác phẩm kể về một nhóm lính đánh thuê bất tử, phim có phần kịch bản chưa tốt nhưng bù lại yếu tốt hành động chỉn chu và ấn tượng.</em>
                                 </div>
                             </div>
-        
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-The-Lobster-2015.jpg" alt="Lobster"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim The Lobster (2015) tình yêu không thể bị ép buộc</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                            <div class="carousel-item">
+                                <div class="Big-Box" style="padding: 10px;">
+                                    <div class="smallBox">
+                                        <div class="product">              
+                                            <img src="images/lienQuang/review-phim-Never-Rarely-Sometimes-Always-4-218x150.jpg" alt="Review phim ‘Never Rarely Sometimes Always’ (2020)" />
+                                            <div class="info">
+                                                <a href="#" alt="Review phim ‘Never Rarely Sometimes Always’ (2020)">Review phim ‘Never Rarely Sometimes Always’ (2020)</a>
+                                        </div>
                                     </div>
-                                    <em>Không giữ được vị trí đứng đầu lâu, John Wick 3: Parabellum đã bị doanh thu Aladdin vượt mặt trên bảng xếp hạng phim...</em>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-no-country-for-old-men.jpg" alt="no-country"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim No Country for Old Men (2008) chất viễn tây chưa bao giờ hết thời</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                                    <div class="product">
+                                            <img src="images/lienQuang/review-phim-invisible-man-1-218x150.jpg" alt="The Invisible Man tác phẩm kinh dị tử tế hiếm hoi đầu 2020" />
+                                            <div class="info">
+                                                <a href="#" alt="The Invisible Man tác phẩm kinh dị tử tế hiếm hoi đầu 2020">The Invisible Man tác phẩm kinh dị tử tế hiếm hoi đầu 2020</a>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <img src="images/lienQuang/review-phim-little-women-4-scaled-218x150.jpg" alt="Cảm nhận phim Little Women khi phụ nữ là trung tâm" />
+                                            <div class="info">
+                                                <a href="#" alt="Cảm nhận phim Little Women khi phụ nữ là trung tâm">Cảm nhận phim Little Women khi phụ nữ là trung tâm</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <em>Review phim No Country for Old Men là đỉnh cao, là sự hoàn thiện tuyệt vời trong định nghĩa cái chất riêng của phim anh em nhà Coen.</em>
                                 </div>
                             </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-tree-of-life.jpg" alt="the-tree"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim The Tree of Life tác phẩm điện ảnh giàu chất thơ</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                            <div class="carousel-item">
+                                <div class="Big-Box" style="padding: 10px;">
+                                    <div class="smallBox">
+                                        <div class="product">              
+                                            <img src="images/lienQuang/Brody-SpikeLeeFilmReview-218x150.jpg" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam" />
+                                            <div class="info">
+                                                <a href="#" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam">Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam</a>
+                                        </div>
                                     </div>
-                                    <em>Review phim The Tree of Life thật sự là tác phẩm điện ảnh đẹp đẽ, giàu chất thơ và đậm tính cá nhân nhất nhì </em>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-there-will-be-blood.jpg" alt="there-will"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim There Will Be Blood (2007) tác phẩm kinh điển sầu bi</h2></a>
-                                    
-                                    <div class="td-module-meta-info">
-                                        <span class="entry-review-stars">
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star-half-empty.png"/>
-                                        </span>
+                                    <div class="product">
+                                            <img src="images/lienQuang/sky-tour-movie-1-218x150.jpg" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm" />
+                                            <div class="info">
+                                                <a href="#" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm">Sky Tour Movie 2020 cú hích phòng vé giữa năm</a>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <img src="images/lienQuang/đường-hầm-sinh-tử-218x150.jpg" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)" />
+                                            <div class="info">
+                                                <a href="#" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)">Review phim Đường Hầm Sinh Tử (The Tunnel)</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <em>Review phim There Will Be Blood là một bộ tác phẩm điện ảnh kinh điển, bởi không chỉ sau 10 năm, 20 năm hay 50 năm sau, người ta vẫn sẽ nhắc về nó</em>
                                 </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-room-2015.jpg" alt="toy"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Cảm nhận phim Room (2015) dưới những góc nhìn khác</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
-                                    </div>
-                                    <em>Review phim Room 2015 là câu chuyện về một căn phòng, và quá trình những người sống trong đó bước ra khỏi phòng, vào thế giới bên ngoài</em>
-                                </div>
-                            </div>
-                            <div class="next-page">
-                                <span class="current">1</span>
-                                <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page2" class="page" title="2">2</a>
-                                <a href="#" class="page" title="3">3</a>
-                                <span class="extend">...</span>
-                                <a href="#" class="last" title="22">16</a>
-                                <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page2"><i class="fas fa-angle-right"></i></a>
-                                <span class="pages">Trang 1 của 16</span>
                             </div>
                         </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
                 </section>
             </div>
+            
             <!--Cot 2-->
             <div class="col30 bookmark">
                 <div id="quangCao" class="quangcao number2">
@@ -368,12 +409,12 @@
                     
                  </div> 
                  <div class="video">
-                    <iframe src="https://www.youtube.com/embed/KSIto78nSEc?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/J8riYadR3Nk?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  </div>
             </div>
         </section>
-        <!--Footer-->
-        <footer id="lienHe">
+         <!--Footer-->
+         <footer id="lienHe">
             <h3>LIÊN HỆ</h3>
             <hr color="gray" width="5%" size="3" >
             <div class="colfooter">

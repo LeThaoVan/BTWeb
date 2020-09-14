@@ -3,10 +3,14 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8"/>
-        <title>Giới thiệu phim hay</title>
-        <link href="css/style_trangReview.css" rel="stylesheet"/>
+        <title>Doanh thu Aladdin vượt mặt cả John Wick và Endgame trên BXH phòng vé</title>
+        <link href="css/style_pageReview.css" rel="stylesheet"/>
         <meta name ="keywords" content="review phim, phim hay, giới thiệu phim hay"/>
         <link href="images/icons8-documentary-24.png" rel="shortcut icon" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script type="text/javascript" src="script.js" defer></script>
@@ -17,6 +21,7 @@
         <header>
             <img src="images/logo.PQ___" alt="Review" class="logo"/>
         </header>
+       
         <!--Menu-->
         <div class="hovermenu">
             <div class="myMenu" id="menu-phone" onclick="myFunction()">
@@ -26,9 +31,9 @@
                 <nav>
                     <ul class="menu">
                        <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/" class="TC">Trang chủ</a></li>
-                       <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page1">Review phim</a></li> 
-                       <li><a href="#" class="GTPH">Giới thiệu phim hay</a></li>
-                       <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-bang-xep-hang">Bảng xếp hạng</a></li> 
+                       <li><a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page1" class="RP">Bảng xếp hạng</a></li> 
+                       <li><a href="#">Giới thiệu phim hay</a></li>
+                       <li><a href="#">Bảng xếp hạng</a></li> 
                        <li><a href="#lienHe">Liên hệ</a></li>
                        <li onclick="showSearch()">
                              <i class="fas fa-search"></i> 
@@ -41,159 +46,190 @@
                 </div> 
             </div>
         </div>
-        <!--Noi dung-->
-        <section class="muc2">
-            <!--Cot 1-->
-            <div class="col70">
-                <div class="td-pb-span12">
-                    <div class="td-crumb-container">
-                        <div class="entry-crumbs">
-                            <span>
-                                <a title="" class="entry-crumb" href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/">Trang chủ</a>
-                            </span> 
-                            <i class="fas fa-angle-right" style="opacity: 0.4;"></i>
-                            <span>
-                                <a title="Xem tất cả bài review trong review phim" class="entry-crumb" href="#">Giới thiệu phim hay</a>
-                            </span>
-                        </div>
-                        <h1 class="entry-title td-page-title">GIỚI THIỆU PHIM HAY</h1>
-                        <div class="td-category-description">
-                            <p><em>Chuyên mục giới thiệu phim hay gồm các bài viết tổng hợp danh sách top phim hay các thể loại được giới phê bình và khán giả đánh giá cao. Ngoài ra, còn có những bài đánh giá và giải thích những bộ phim kinh điển.</em></p>
-                        </div>
+        <div class="background-images">
+            <img class="img-bg-no1" src="images/Aladdin_1.jpg" alt="Aladdin"  style="opacity: 1;">
+            <img class="img-bg-no1" src="images/Aladdin_1.jpg" alt="Aladdin"  style="opacity: 1;">
+            <img class="img-bg-no1" src="images/Aladdin_1.jpg" alt="Aladdin" style="opacity: 1;">
+            <img class="img-bg-no1" src="images/Aladdin_1.jpg" alt="Aladdin" style="opacity: 1;">
+        </div>
+        <section class="tieuDe-chinh">
+           
+            <div class="td-pb-span12">
+                <div class="td-crumb-container">
+                    <div class="entry-crumbs">
+                        <span>
+                            <a title="" class="entry-crumb" href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/">Trang chủ</a>
+                        </span> 
+                        <i class="fas fa-angle-right" style="opacity: 0.4;"></i>
+                        <span>
+                            <a title="Xem tất cả bài review trong review phim" class="entry-crumb" href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-bang-xep-hang">Bảng xếp hạng</a>
+                        </span>
                     </div>
                 </div>
-                <section>
-                        <div class="list">
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-review-phim-ban-dao"><img src="images/phim-mulholland.jpeg" alt="Mul">
-                                </div>
-                                <div class="text">
-                                    <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-review-phim-ban-dao">
-                                        <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-review-phim-ban-dao"><h2>Giải thích kết phim Mulholland Drive(2001) như thế nào cho đúng</h2></a>
-                                        <div>
-                                            <span class="td-post-date">
-                                                <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                            </span>
+            </div>
+            <div class="td-pb-not-span12">
+                <h1 class="entry-title td-page-title">Doanh thu Aladdin vượt mặt cả John Wick và Endgame trên BXH phòng vé</h1>
+                <div class="td-category-description">
+                    <p><em>Không giữ được vị trí đứng đầu lâu,John Wick 3 đã bọi doanh thu Aladdin vượt mặt trên bảng xếp hạng phim ăn khách Bắc Mỹ cuối tuần qua.</em></p>
+                </div>
+                <div>
+                    <span class="td-post-date">
+                        <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="page-BanDao">
+            <!--Cot 1-->
+            <div class="col70">
+                <div class="noi-dung-review">
+                    <div class="noi-dung dk1">
+                        <p>Bất chấp những lời chê về tạo hình các nhân vật trước lúc công chiếu, Aladdin đã khiến khán giả hoàn toàn bất ngờ khi ra rạp. Trong 3 ngày cuối tuần, Aladdin mang về 86,1 triệu USD trên thị trường nội địa..</p>
+                        <ul class="style-type"><b>Xem thêm:</b>
+                            <li><a href="#" alt="7 yếu tố tạo nên thành công phim Train to Busan (2016)">7 yếu tố tạo nên thành công phim Train to Busan (2016)</a></li>
+                            <li><a href="#" alt="Cảm nhận phim Room (2015) dưới những góc nhìn khác">Cảm nhận phim Room (2015) dưới những góc nhìn khác</a></li>
+                        </ul>
+                    </div>
+                    <div class="noi-dung dk2">
+                        <img src="images/Aladdin_1.jpg" alt="Aladdin" />
+                        <p>Tính tổng doanh thu toàn cầu, live-action Aladdin mang về cho Disney xấp xỉ 207,1 triệu USD. Với kinh phí 183 triệu USD, Disney có thể tạm hài lòng về mở màn này..</p>
+                    </div>
+                    <div id="quangCao" class="quangcao number1">
+                        <div class="b-button-QC">
+                            <button id="show-1"><i class="fas fa-sort-up"></i></i></button>
+                            <button id="hide-1"><i class="fas fa-times"></i></button>
+                        </div>
+                            <div class="backgroud-quangCao">
+                                <div id="hideIcon-1"><i class="fas fa-spinner fa-pulse" style="font-size:90px;"></i></div>
+                                <a id="b-quang-cao-1" href="https://corporate.studygroup.com/higher-education-pathways/united-kingdom/liverpool-john-moores-university"><img id="#img-quang-cao-1" src="images/quangcao/educational.jpg"/></a>
+                            </div>  
+                    </div>
+                    <div class="noi-dung dk3">
+                        <p>Dù nhận được sự hưởng ứng của khán giả nhưng phim lại bị giới phê bình lại có những đánh giá trái chiều. Phim live action Aladdin chỉ nhận được 58% cà chua tươi trên Rotten Tomatoes nhưng có điểm 7.4/10 trên IMDB.</p>
+                        <img src="images/Aladdin_2.jpg" alt="Aladdin"/>
+                    </div>
+                    <div class="noi-dung dk4">
+                        <p>Sau 10 ngày công chiếu, John Wick 3: Parabellum thu về chỉ 24,35 triệu USD từ 3.850 rạp Bắc Mỹ cuối tuần qua nâng tổng doanh thu nội địa của phim tính đến thời điểm hiện tại là 101 triệu USD.</p>
+                        <p>Tổng thu toàn cầu của bộ phim đã là 175,4 triệu USD trở thành phần phim kiếm tiền tốt nhất trong seri về chàng sát thủ yêu chó này.</p>
+                        <img src="images/Aladdin_3.jpg" alt="Aladdin" />
+                        <p>Bị đẩy xuống vị trí thứ 3, phim Avengers: Endgame thu về 16,8 triệu USD nội địa và 15,3 triệu USD ngoại địa nâng tổng doanh thu toàn cầu lên 2,677 tỷ USD, và vẫn còn cách kỷ lục của Avatar khoảng 111 triệu USD.</p>
+                    </div>
+                    <div class="noi-dung dk5">
+                        <h2><b>Top 10 phim ăn khách tại Bắc Mỹ từ 24/5 tới 26/5:</b></h2>
+                        <p>(trong ngoặc là thứ hạng của tuần trước)</p>
+                        <p>1 (1). Bad Boys For Life: 17,7 triệu USD</p>
+                        <p>2 (2). 1917: 9,7 triệu USD</p>
+                        <p>3 (3). Dolittle: 7,7 triệu USD</p>
+                        <p>4 (Mới). Gretel & Hansel: 6,1 triệu USD</p>
+                        <p>5 (4). The Gentlemen: 6 triệu USD</p>
+                        <p>6 (5). Jumanji: The Next Level: 6 triệu USD</p>
+                        <p>7 (7). Star Wars: The Rise of Skywalker: 3,2 triệu USD</p>
+                        <p>8 (6). The Turning: 3,05 triệu USD</p>
+                        <p>9 (8). Little Women: 3 triệu USD</p>
+                        <p>10 (Mới). The Rhythm Section: 2,8 triệu USD</p>
+                        <ul class="style-type"><b>Tổng hợp:</b>
+                            <li><a href="#" alt="Review phim The Old Guard những chiến binh bất tử trên Netflix">Review phim The Old Guard những chiến binh bất tử trên Netflix</a></li>
+                            <li><a href="#" alt="Review phim Chị chị em em ở một góc nhìn khác">Review phim Chị chị em em ở một góc nhìn khác</a></li>
+                        </ul>
+                    </div>
+                </div> 
+                <section class="hide-show-slide">
+                    <div>
+                        <a href="#" style="text-decoration: none"><h1 class="subject cap2">Bài viết liên quan</h1></a>
+                    </div>
+                    <div id="demo" class="carousel slide" data-ride="carousel" style="padding: 5px 15px;"> 
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner" style="background: black; padding: 5px;" >
+                            <div class="carousel-item active">
+                                <div class="Big-Box">
+                                    <div class="smallBox">
+                                        <div class="product">              
+                                            <img src="images/lienQuang/Brody-SpikeLeeFilmReview-218x150.jpg" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam" />
+                                            <div class="info">
+                                                <a href="#" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam">Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam</a>
                                         </div>
-                                        <em>Review phim mulholland drive sắp xếp từng mảnh ghép, từng gợi ý tiếp theo trong câu chuyện để khẳng định cái giả thuyết vào cú twist của phim...</em>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/Phim-It-Happened.jpg" alt="happen"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim It Happened One Night (1934) cổ tích của một Hollywood hoàng kim</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
                                     </div>
-                                    <em>Trải qua bao nhiêu năm nhưng phim It Happened One Night vẫn không bị cuốn trôi vào dĩ vãng. ngược lại, những giá trị cao cả cả tác phẩm vẫn còn sống mãi</em>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-the-old-guard-netflix.jpg" alt="the-old"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Review phim The Old Guard những chiến binh bất tử trên Netflix</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                                    <div class="product">
+                                            <img src="images/lienQuang/sky-tour-movie-1-218x150.jpg" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm" />
+                                            <div class="info">
+                                                <a href="#" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm">Sky Tour Movie 2020 cú hích phòng vé giữa năm</a>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <img src="images/lienQuang/đường-hầm-sinh-tử-218x150.jpg" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)" />
+                                            <div class="info">
+                                                <a href="#" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)">Review phim Đường Hầm Sinh Tử (The Tunnel)</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <em>Review phim The Old Guard tác phẩm kể về một nhóm lính đánh thuê bất tử, phim có phần kịch bản chưa tốt nhưng bù lại yếu tốt hành động chỉn chu và ấn tượng.</em>
                                 </div>
                             </div>
-        
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-The-Lobster-2015.jpg" alt="Lobster"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim The Lobster (2015) tình yêu không thể bị ép buộc</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                            <div class="carousel-item">
+                                <div class="Big-Box" style="padding: 10px;">
+                                    <div class="smallBox">
+                                        <div class="product">              
+                                            <img src="images/lienQuang/review-phim-Never-Rarely-Sometimes-Always-4-218x150.jpg" alt="Review phim ‘Never Rarely Sometimes Always’ (2020)" />
+                                            <div class="info">
+                                                <a href="#" alt="Review phim ‘Never Rarely Sometimes Always’ (2020)">Review phim ‘Never Rarely Sometimes Always’ (2020)</a>
+                                        </div>
                                     </div>
-                                    <em>Không giữ được vị trí đứng đầu lâu, John Wick 3: Parabellum đã bị doanh thu Aladdin vượt mặt trên bảng xếp hạng phim...</em>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-no-country-for-old-men.jpg" alt="no-country"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim No Country for Old Men (2008) chất viễn tây chưa bao giờ hết thời</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                                    <div class="product">
+                                            <img src="images/lienQuang/review-phim-invisible-man-1-218x150.jpg" alt="The Invisible Man tác phẩm kinh dị tử tế hiếm hoi đầu 2020" />
+                                            <div class="info">
+                                                <a href="#" alt="The Invisible Man tác phẩm kinh dị tử tế hiếm hoi đầu 2020">The Invisible Man tác phẩm kinh dị tử tế hiếm hoi đầu 2020</a>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <img src="images/lienQuang/review-phim-little-women-4-scaled-218x150.jpg" alt="Cảm nhận phim Little Women khi phụ nữ là trung tâm" />
+                                            <div class="info">
+                                                <a href="#" alt="Cảm nhận phim Little Women khi phụ nữ là trung tâm">Cảm nhận phim Little Women khi phụ nữ là trung tâm</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <em>Review phim No Country for Old Men là đỉnh cao, là sự hoàn thiện tuyệt vời trong định nghĩa cái chất riêng của phim anh em nhà Coen.</em>
                                 </div>
                             </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-tree-of-life.jpg" alt="the-tree"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim The Tree of Life tác phẩm điện ảnh giàu chất thơ</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
+                            <div class="carousel-item">
+                                <div class="Big-Box" style="padding: 10px;">
+                                    <div class="smallBox">
+                                        <div class="product">              
+                                            <img src="images/lienQuang/Brody-SpikeLeeFilmReview-218x150.jpg" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam" />
+                                            <div class="info">
+                                                <a href="#" alt="Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam">Phim Da 5 Bloods chuyện về người da màu và chiến tranh Việt Nam</a>
+                                        </div>
                                     </div>
-                                    <em>Review phim The Tree of Life thật sự là tác phẩm điện ảnh đẹp đẽ, giàu chất thơ và đậm tính cá nhân nhất nhì </em>
-                                </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-there-will-be-blood.jpg" alt="there-will"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Phim There Will Be Blood (2007) tác phẩm kinh điển sầu bi</h2></a>
-                                    
-                                    <div class="td-module-meta-info">
-                                        <span class="entry-review-stars">
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star.png"/>
-                                            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/star-half-empty.png"/>
-                                        </span>
+                                    <div class="product">
+                                            <img src="images/lienQuang/sky-tour-movie-1-218x150.jpg" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm" />
+                                            <div class="info">
+                                                <a href="#" alt="Sky Tour Movie 2020 cú hích phòng vé giữa năm">Sky Tour Movie 2020 cú hích phòng vé giữa năm</a>
+                                            </div>
+                                        </div>
+                                        <div class="product">
+                                            <img src="images/lienQuang/đường-hầm-sinh-tử-218x150.jpg" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)" />
+                                            <div class="info">
+                                                <a href="#" alt="Review phim Đường Hầm Sinh Tử (The Tunnel)">Review phim Đường Hầm Sinh Tử (The Tunnel)</a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <em>Review phim There Will Be Blood là một bộ tác phẩm điện ảnh kinh điển, bởi không chỉ sau 10 năm, 20 năm hay 50 năm sau, người ta vẫn sẽ nhắc về nó</em>
                                 </div>
-                            </div>
-                            <div class="phim">
-                                <div class="poster">
-                                    <a href="#"><img src="images/phim-room-2015.jpg" alt="toy"></a>
-                                </div>
-                                <div class="text">
-                                    <a href="#"><h2>Cảm nhận phim Room (2015) dưới những góc nhìn khác</h2></a>
-                                    <div>
-                                        <span class="td-post-date">
-                                            <time class="entry-date updated td-module-date" datetime="2020-08-27T">27/08/2020</time>
-                                        </span>
-                                    </div>
-                                    <em>Review phim Room 2015 là câu chuyện về một căn phòng, và quá trình những người sống trong đó bước ra khỏi phòng, vào thế giới bên ngoài</em>
-                                </div>
-                            </div>
-                            <div class="next-page">
-                                <span class="current">1</span>
-                                <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page2" class="page" title="2">2</a>
-                                <a href="#" class="page" title="3">3</a>
-                                <span class="extend">...</span>
-                                <a href="#" class="last" title="22">16</a>
-                                <a href="https://lethaovan.github.io/Web-Review-Phim-trang-chu/demo-Review-Phim-page2"><i class="fas fa-angle-right"></i></a>
-                                <span class="pages">Trang 1 của 16</span>
                             </div>
                         </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
                 </section>
             </div>
             <!--Cot 2-->
@@ -368,12 +404,12 @@
                     
                  </div> 
                  <div class="video">
-                    <iframe src="https://www.youtube.com/embed/KSIto78nSEc?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/J8riYadR3Nk?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  </div>
             </div>
         </section>
-        <!--Footer-->
-        <footer id="lienHe">
+         <!--Footer-->
+         <footer id="lienHe">
             <h3>LIÊN HỆ</h3>
             <hr color="gray" width="5%" size="3" >
             <div class="colfooter">

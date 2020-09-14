@@ -311,6 +311,9 @@ h1.subject {
     .number3 { 
       display: none;
     }
+    .dk5 > h2 > b {
+      font-size: 19px;
+    }
   }
   @media screen and (max-width: 620px) {
     .entry-review-stars > img {
@@ -347,6 +350,9 @@ h1.subject {
     }
     .hide-show-slide {
       display: none;
+    }
+    .dk5 > h2 > b {
+      font-size: 15px;
     }
   }
 
@@ -440,10 +446,9 @@ div.info {
   text-align: left;
 }
 div.info > a {
-    font-size: 12px;
+    font-size: 10px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
 }
     /* CSS cot 2 */
  .listBox {
