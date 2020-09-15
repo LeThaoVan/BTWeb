@@ -107,7 +107,7 @@ function gui() {
 
   }
 }
-function gui() {
+function timKiem() {
   var tk = document.getElementById("tim");
   var xd = document.getElementById("search")
   if (xd != undefined) {
