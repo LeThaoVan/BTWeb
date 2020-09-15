@@ -106,6 +106,15 @@ function gui() {
           alert(q);
 
   }
-      
+}
+function gui() {
+  var tk = document.getElementById("tim");
+  var xd = document.getElementById("search")
+  if (xd != undefined) {
+    if (kt(xd) == true)
+      alert("Không thể tìm thấy từ khóa")
+    else
+      alert("Vui lòng nhập từ khóa")
+  }
 }
 
